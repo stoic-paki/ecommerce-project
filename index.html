@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="heading">
+            Ecommerce
+        </h1>
+        <p>Items available: <span id="counter"></span></p>
+        <div class="search-area">
+            <input name="search" type="search" id="search">
+            <button class="search-btn btn" onclick="searchBar()">Search</button>
+        </div>
+    </div>
+
+    <div class="header">
+        <button class="btn" onclick="createCards()">All</button>
+        <button class="btn" onclick="filterProd('beauty')">Beauty</button>
+        <button class="btn" onclick="filterProd('groceries')">groceries</button>
+        <button class="btn" onclick="filterProd('fragrances')">Fragrances</button>
+        <button class="btn" onclick="filterProd('furniture')">Furniture</button>
+    </div>
+<div class="container">
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
